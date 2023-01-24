@@ -1,0 +1,99 @@
+.footer {
+    background-color: #141414;
+
+
+    &__logo {
+        width: 84px;
+    }
+
+    &_inner {
+        padding: 42px 0;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    &__right {
+        width: 917px;
+
+
+        &----items {
+            @include flex(row, flex-start, space-between);
+            list-style-type: none;
+            padding-left: 0;
+            margin: 0 0 20px;
+
+            &---list {
+
+
+                &--elements {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    padding-left: 0;
+                    margin: 0;
+                    list-style-type: none;
+
+                    &-item {
+                        margin-bottom: 15px;
+                        font-family: 'Netflix Sans';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 13px;
+                        line-height: 17px;
+
+                        color: #808080;
+
+                    }
+                }
+            }
+
+        }
+
+
+
+
+
+        &---icons {
+            margin-bottom: 20px;
+            @include flex(row, center, space-between);
+
+
+
+            &--button {
+                padding: 10px 15px;
+                @include flex(row, flex-start, space-between);
+                background-color: #141414;
+                border: 1px solid #808080;
+
+                &-link {
+                    text-decoration: none;
+                    font-family: 'Netflix Sans';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 13px;
+                    line-height: 17px;
+                    color: #808080;
+
+                }
+            }
+
+            &--links {
+                width: 156px;
+                @include flex(row, flex-start, space-between);
+
+            }
+        }
+
+        &-text {
+            font-family: 'Netflix Sans';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 11px;
+            line-height: 14px;
+            color: #808080;
+
+        }
+    }
+}
