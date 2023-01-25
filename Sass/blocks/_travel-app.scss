@@ -1,0 +1,182 @@
+.travel-app {
+    margin: 0 auto;
+    width: 1366px;
+    background-image: url(../../images/travel-app-mountains.png);
+    background-repeat: no-repeat;
+
+    &__inner {
+        padding: 57px 0 0 0;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+
+
+        &----right {
+
+
+
+            &---texts {
+                margin-left: 16px;
+                width: 772px;
+
+
+
+                &--title {
+                    margin-bottom: 24px;
+                    font-family: 'Helvetica';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 48px;
+                    line-height: 55px;
+                    color: #FFFFFF;
+                }
+
+                &--text {
+                    margin-bottom: 36px;
+                    font-family: 'Helvetica';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 24px;
+                    line-height: 28px;
+                    color: #FFFFFF;
+                }
+            }
+
+            &---items {
+                display: flex;
+                justify-content: space-between;
+
+                &--item {
+
+
+
+                    &-button {
+                        margin-bottom: 16px;
+                        background: none;
+                        padding: 8px;
+                        gap: 8px;
+                        border: none;
+
+
+                        &-link {
+                            text-decoration: none;
+                            font-family: 'Helvetica';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 20px;
+                            line-height: 23px;
+                            color: #FFFFFF;
+
+
+                        }
+                    }
+
+                    &-text {
+                        font-family: 'Helvetica';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 16px;
+                        color: #FFFFFF;
+
+                    }
+
+                    &-search {
+                        width: 462px;
+                        height: 58px;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        align-items: center;
+                        padding: 0px;
+                        gap: 32px;
+                        background: rgba(255, 255, 255, 0.4);
+                        backdrop-filter: blur(16px);
+                        border-radius: 16px;
+
+
+                        &-button1 {
+                            width: 210px;
+                            height: 42px;
+                            display: flex;
+                            flex-direction: row;
+                            align-items: center;
+                            padding: 12px 8px;
+                            gap: 8px;
+                            background: none;
+                            border: none;
+
+                            &-link1 {
+                                font-family: 'Helvetica';
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 16px;
+                                line-height: 18px;
+                                color: #FFFFFF;
+                                opacity: 0.7;
+                                text-decoration: none;
+                            }
+
+                        }
+
+                        &-button2 {
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: center;
+                            align-items: center;
+                            padding: 12px 32px;
+                            gap: 8px;
+                            border: none;
+                            width: 188px;
+                            height: 42px;
+                            background: #FFFFFF;
+                            border-radius: 32px;
+
+                            &-link2 {
+
+                                font-family: 'Helvetica';
+                                font-style: normal;
+                                font-weight: 700;
+                                font-size: 16px;
+                                line-height: 18px;
+                                color: #2659C3;
+                                opacity: 0.7;
+                                text-decoration: none;
+                            }
+                        }
+                    }
+                }
+
+                &--element {
+
+                    &-item {
+                        padding-left: 43px;
+                        border-left: 1px solid rgb(255, 253, 253);
+                    }
+
+                    &-text {
+                        font-family: 'Helvetica';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 18px;
+                        color: #FFFFFF;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.hover-button {
+    margin-right: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 8px 16px;
+    gap: 8px;
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(16px);
+    border-radius: 16px;
+
+}

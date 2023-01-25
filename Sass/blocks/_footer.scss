@@ -45,6 +45,16 @@
 
                         color: #808080;
 
+                        &-link {
+                            text-decoration: none;
+                            font-family: 'Netflix Sans';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 13px;
+                            line-height: 17px;
+                            color: #808080;
+
+                        }
                     }
                 }
             }

@@ -361,6 +361,150 @@ img {
   padding: 0 120px;
 }
 
+.travel-app {
+  margin: 0 auto;
+  width: 1366px;
+  background-image: url(../../images/travel-app-mountains.png);
+  background-repeat: no-repeat;
+}
+.travel-app__inner {
+  padding: 57px 0 0 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.travel-app__inner----right---texts {
+  margin-left: 16px;
+  width: 772px;
+}
+.travel-app__inner----right---texts--title {
+  margin-bottom: 24px;
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 55px;
+  color: #FFFFFF;
+}
+.travel-app__inner----right---texts--text {
+  margin-bottom: 36px;
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #FFFFFF;
+}
+.travel-app__inner----right---items {
+  display: flex;
+  justify-content: space-between;
+}
+.travel-app__inner----right---items--item-button {
+  margin-bottom: 16px;
+  background: none;
+  padding: 8px;
+  gap: 8px;
+  border: none;
+}
+.travel-app__inner----right---items--item-button-link {
+  text-decoration: none;
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #FFFFFF;
+}
+.travel-app__inner----right---items--item-text {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #FFFFFF;
+}
+.travel-app__inner----right---items--item-search {
+  width: 462px;
+  height: 58px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 32px;
+  background: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(16px);
+  border-radius: 16px;
+}
+.travel-app__inner----right---items--item-search-button1 {
+  width: 210px;
+  height: 42px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px 8px;
+  gap: 8px;
+  background: none;
+  border: none;
+}
+.travel-app__inner----right---items--item-search-button1-link1 {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: #FFFFFF;
+  opacity: 0.7;
+  text-decoration: none;
+}
+.travel-app__inner----right---items--item-search-button2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 32px;
+  gap: 8px;
+  border: none;
+  width: 188px;
+  height: 42px;
+  background: #FFFFFF;
+  border-radius: 32px;
+}
+.travel-app__inner----right---items--item-search-button2-link2 {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  color: #2659C3;
+  opacity: 0.7;
+  text-decoration: none;
+}
+.travel-app__inner----right---items--element-item {
+  padding-left: 43px;
+  border-left: 1px solid rgb(255, 253, 253);
+}
+.travel-app__inner----right---items--element-text {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: #FFFFFF;
+}
+
+.hover-button {
+  margin-right: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 8px 16px;
+  gap: 8px;
+  background: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(16px);
+  border-radius: 16px;
+}
+
 .footer {
   background-color: #141414;
 }
@@ -395,6 +539,15 @@ img {
 }
 .footer__right----items---list--elements-item {
   margin-bottom: 15px;
+  font-family: "Netflix Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 17px;
+  color: #808080;
+}
+.footer__right----items---list--elements-item-link {
+  text-decoration: none;
   font-family: "Netflix Sans";
   font-style: normal;
   font-weight: 400;
