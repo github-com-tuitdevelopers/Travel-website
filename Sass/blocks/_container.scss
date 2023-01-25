@@ -1,6 +1,29 @@
+body {
+  @include bg("../images/body_back.png", no-repeat, top center);
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+body::after {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) 0%,
+    #ffffff 89.58%
+  );
+  @include psevdoEl(100%, 105px, absolute, 739px, 0);
+}
+
 .container {
-    // max-width: max-width;
-    width: 100%;
-    margin: 0 auto;
-    padding: 0 20px;
+  // max-width: max-width;
+  max-width: 1366px;
+  margin: 0 auto;
+  padding: 0 120px;
+}
+
+.wrapper {
+  max-width: 1366px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 47px;
 }
