@@ -1,6 +1,6 @@
 .header {
   margin-bottom: 40px;
-
+  
 
   &__inner {
     @include flex(row, center, space-between);
@@ -34,8 +34,8 @@
   }
 }
 
-.active{
-    width: 59px;
-    padding: 8px;
-    border-bottom: 1px solid #fff;
+.active {
+  width: 59px;
+  padding: 8px;
+  border-bottom: 1px solid #fff;
 }
