@@ -21,15 +21,15 @@
     background: rgba(255, 255, 255, 0.4);
     backdrop-filter: blur(16px);
     border-radius: 16px;
-    // padding: 9px 16px;
+    // padding: 0;
 
     &__body {
       @include flex(row, center, space-between);
-      // margin-left: 0;
       list-style-type: none;
+      margin: 0;
+      padding: 9px 16px;
 
       &--search {
-        // @include flex(row, center, space-between);
         width: 378px;
         position: relative;
 
@@ -49,6 +49,101 @@
         @include psevdoEl(16px, 16px, absolute, 15px, 0);
         background: url(../../images/search.svg);
         // margin-right: 11px;
+      }
+
+      &--checkinout {
+        width: 147px;
+        position: relative;
+
+        &-text {
+          font-family: "Helvetica";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 18px;
+          color: #ffffff;
+          opacity: 0.7;
+          margin-left: 26px;
+        }
+      }
+
+      &--checkinout::before {
+        @include psevdoEl(20px, 20px, absolute, 13px, 0);
+        background: url(../../images/checks.svg);
+      }
+
+      &--room {
+        width: 147px;
+        position: relative;
+
+        &-text {
+          font-family: "Helvetica";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 18px;
+          color: #ffffff;
+          opacity: 0.7;
+          margin-left: 26px;
+        }
+      }
+
+      &--room::before {
+        @include psevdoEl(20px, 20px, absolute, 13px, 0);
+        background: url(../../images/male.svg);
+      }
+
+      &--btn {
+        cursor: pointer;
+        width: 147px;
+        padding: 12px 46.5px;
+        background: #ffffff;
+        border-radius: 32px;
+        text-decoration: none;
+        font-family: "Helvetica";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 18px;
+        color: #2659c3;
+        opacity: 0.7;
+      }
+    }
+  }
+
+  &-category {
+    width: 100%;
+
+    &__title {
+      font-family: "Helvetica";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 37px;
+      color: #ffffff;
+      margin-bottom: 32px;
+    }
+
+    &__lists {
+      @include flex(row, center, space-between);
+      list-style-type: none;
+      padding: 0;
+    }
+
+    &__list {
+      position: relative;
+      // width: 87px;
+      @include flex(column, center, center);
+      // align-items: center;
+
+      &-title {
+        font-family: "Helvetica";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 18px;
+        color: #ffffff;
+        opacity: 0.4;
       }
     }
   }

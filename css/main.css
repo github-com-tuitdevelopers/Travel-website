@@ -459,6 +459,8 @@ body::after {
   align-items: center;
   justify-content: space-between;
   list-style-type: none;
+  margin: 0;
+  padding: 9px 16px;
 }
 .hero-extra__body--search {
   width: 378px;
@@ -483,4 +485,103 @@ body::after {
   height: 16px;
   content: "";
   background: url(../../images/search.svg);
+}
+.hero-extra__body--checkinout {
+  width: 147px;
+  position: relative;
+}
+.hero-extra__body--checkinout-text {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: #ffffff;
+  opacity: 0.7;
+  margin-left: 26px;
+}
+.hero-extra__body--checkinout::before {
+  position: absolute;
+  top: 13px;
+  left: 0;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  content: "";
+  background: url(../../images/checks.svg);
+}
+.hero-extra__body--room {
+  width: 147px;
+  position: relative;
+}
+.hero-extra__body--room-text {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: #ffffff;
+  opacity: 0.7;
+  margin-left: 26px;
+}
+.hero-extra__body--room::before {
+  position: absolute;
+  top: 13px;
+  left: 0;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  content: "";
+  background: url(../../images/male.svg);
+}
+.hero-extra__body--btn {
+  cursor: pointer;
+  width: 147px;
+  padding: 12px 46.5px;
+  background: #ffffff;
+  border-radius: 32px;
+  text-decoration: none;
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  color: #2659c3;
+  opacity: 0.7;
+}
+.hero-category {
+  width: 100%;
+}
+.hero-category__title {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 37px;
+  color: #ffffff;
+  margin-bottom: 32px;
+}
+.hero-category__lists {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 0;
+}
+.hero-category__list {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.hero-category__list-title {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: #ffffff;
+  opacity: 0.4;
 }/*# sourceMappingURL=main.css.map */
