@@ -1,0 +1,27 @@
+.plan {
+    padding-left: 70px;
+    &__inner {
+        width: 1126px;
+        height: 395px;
+        padding: 80px;
+        background-image: url(../../images/plan_bg.png);
+        background-repeat: no-repeat;
+        border-radius: 20px;
+    }
+    &__title {
+        width: 680px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 64px;
+        color: #FFFFFF;
+    }
+    &__text {
+        padding-top: 24px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 41px;
+        color: #FFFFFF;
+    }
+}
